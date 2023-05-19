@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100,300');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  background: #3952a3;
+  color: #485e74;
+  line-height: 1.6;
+  font-family: 'Yantramanav', sans-serif;
+  padding: 2em;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.nav {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.nav a {
+  text-decoration: none;
+  color: #3952a3;
+  font-size: 1.5rem;
+}
+
+/* home */
+.home-container {
+  width: 100%;
+  padding: 5rem;
+  height: 30rem;
+  display: flex;
+  justify-content: space-between;
+}
+.home-left-container {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.image-container {
+  width: 45%;
+}
+.image-container img {
+  width: 100%;
+  border-radius: 6px;
+}
+.title {
+  font-size: 3rem;
+  color: white;
+}
+.paragraph {
+  color: white;
+}
+.discover-btn {
+  height: 40px;
+  width: 50%;
+  background: #0e35b5;
+  color: #e4e4e4;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  width: 100%;
+  padding: 0 1em 1em 1em;
+  text-align: center;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+  background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.icon-wrapper {
+  background-color: #2c7bfe;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 2.5em;
+  width: 2.5em;
+  color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+.wrapper {
+  box-shadow: 0 0 20px 0 rgba(57, 82, 163, 0.7);
+}
+
+.company-info {
+  background: #c3c9dd;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.company-info h3,
+.company-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact {
+  background: #dcdfea;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact form label {
+  display: block;
+}
+
+.contact form p {
+  margin: 0;
+}
+
+.contact form .full {
+  grid-column: 1 / 3;
+}
+
+.contact form button,
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 1em;
+  border: solid 1px #627edc;
+  border-radius: 4px;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact form button {
+  background: #627edc;
+  border: 0;
+  color: #e4e4e4;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.wrapper > * {
+  padding: 2em;
+}
+
+.company-info {
+  border-radius: 4px 0 0 4px;
+}
+
+.company-info h3,
+.company-info ul,
+.brand {
+  text-align: left;
+}
+
+/*  */
+.column {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+section {
+  padding: 1em 3em;
+}
+/* pas de responsive */
